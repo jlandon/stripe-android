@@ -57,26 +57,26 @@ afterEvaluate { project ->
                     name = project.artifactName
                     packaging = "aar"
                     description = project.artifactDescrption
-                    url = "https://github.com/stripe/stripe-android"
+                    url = "https://github.com/jlandon/stripe-android"
 
                     scm {
-                        url = "https://github.com/stripe/stripe-android"
-                        connection = "scm:org-856813@github.com:stripe/stripe-android.git"
-                        developerConnection = "scm:org-856813@github.com:stripe/stripe-android.git"
+                        url = "https://github.com/jlandon/stripe-android"
+                        connection = "scm:org-856813@github.com:jlandon/stripe-android.git"
+                        developerConnection = "scm:org-856813@github.com:jlandon/stripe-android.git"
                     }
 
                     licenses {
                         license {
                             name = "The MIT License"
-                            url = "https://raw.githubusercontent.com/stripe/stripe-android/master/LICENSE"
+                            url = "https://raw.githubusercontent.com/jlandon/stripe-android/master/LICENSE"
                             distribution = "repo"
                         }
                     }
 
                     developers {
                         developer {
-                            id = "stripe"
-                            name = "Stripe"
+                            id = "jlandon"
+                            name = "Jonathan Landon"
                         }
                     }
                 }
